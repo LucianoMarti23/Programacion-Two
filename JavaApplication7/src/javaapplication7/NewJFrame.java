@@ -16,7 +16,7 @@ public class NewJFrame extends javax.swing.JFrame {
      * Creates new form NewJFrame
      */
     public NewJFrame() {
-        initComponents();
+        initComponents(); // Inicio al componente
     }
 
     /**
@@ -65,9 +65,9 @@ public class NewJFrame extends javax.swing.JFrame {
          * Creo un array primero para listar las especialidades
      */
         
-            ArrayList <Especialidad> especialidades = new ArrayList<>();                 
+            ArrayList <Especialidad> especialidades = new ArrayList<>();        // Creo un ArrayList         
         
-            Profesional profesion = new Profesional("3644332196","MARTE"
+            Profesional profesion = new Profesional("3644332196","MARTE"     // Creo un objeto Profesional
                     ,"asdhotmail.com","Chapatin"
                     ,"Gomez",'M',"20/2/200",13434);
             
