@@ -10,14 +10,14 @@ import java.util.TreeMap;
  *
  * @author lucia
  */
-public class Profesional extends Persona {
+public class Profesional extends Persona { //Creo la clase profesional que hereda de la clase Persona
     private String telefono;
 
     public Profesional(String telefono, String direccion, String correoelectronico, String nombre, String apellido, char sexo, String fechaNacimiento, int documento) {
         super(nombre, apellido, sexo, fechaNacimiento, documento);
         this.telefono = telefono;
         this.direccion = direccion;
-        this.correoelectronico = correoelectronico;
+        this.correoelectronico = correoelectronico;    // Constructor de la clase Profesional
     }
     private String direccion;
     private String correoelectronico;
