@@ -8,8 +8,8 @@ package javaapplication7;
  *
  * @author lucia
  */
-public class Paciente extends Persona {
-    private int id_paciente;
+public class Paciente extends Persona {   // Creo la clase paciente que es hereda de la clase Persona
+    private int id_paciente;   // Creo los atributos privados de la clase
     private int telefono;
     private String obraSocial;
     private String direccion;
@@ -18,22 +18,22 @@ public class Paciente extends Persona {
         return edad;
     }
 
-    public void setEdad(int edad) {
+    public void setEdad(int edad) {  
         this.edad = edad;
     }
     private int edad;
 
     public Paciente(int id_paciente, int telefono, String obraSocial, String direccion, int edad, String nombre, String apellido, char sexo, String fechaNacimiento, int documento) {
-        super(nombre, apellido, sexo, fechaNacimiento, documento);
+        super(nombre, apellido, sexo, fechaNacimiento, documento); // Constructor de la clase
         this.id_paciente = id_paciente;
         this.telefono = telefono;
         this.obraSocial = obraSocial;
         this.direccion = direccion;
-        this.edad = edad;
-    }
+        this.edad = edad; 
+    }  
 
-    
-    public int getId_paciente() {
+     
+    public int getId_paciente() {     // Metodos Get y Setters para los atributos de la clase
         return id_paciente;
     }
 
