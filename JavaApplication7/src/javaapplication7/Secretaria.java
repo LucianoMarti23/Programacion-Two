@@ -8,14 +8,14 @@ package javaapplication7;
  *
  * @author lucia
  */
-public class Secretaria extends Persona {
+public class Secretaria extends Persona { // Creo la clase Secretaria que extiende de persona
             private  int id_secretaria;
             private String sector;
 
     public Secretaria(int id_secretaria, String sector, String nombre, String apellido, char sexo, String fechaNacimiento, int documento) {
         super(nombre, apellido, sexo, fechaNacimiento, documento);
         this.id_secretaria = id_secretaria;
-        this.sector = sector;
+        this.sector = sector;   // Creo el constructor de la clase
     }
 
     public int getId_secretaria() {
