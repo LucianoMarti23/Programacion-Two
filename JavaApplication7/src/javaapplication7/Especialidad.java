@@ -2,32 +2,32 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package javaapplication7;
+package javaapplication7; // importamos el package de aplicattion7
 
-import java.util.ArrayList;
+import java.util.ArrayList;  // importamos la libreria ArrayList
 
 /**
  *
  * @author lucia
  */
-public class Especialidad {
+public class Especialidad { // creamos la clase Especialidad
 
-    private String nombre;
+    private String nombre;                                           // Definio los atributos privados que va a tener mi clase
     private int nro_especialidad;
     private ArrayList<Turno> turnos = new ArrayList<>();
 
-    public Profesional getProfesional() {
+    public Profesional getProfesional() { // Metodo para acceder a los atributos mediatne get y setters
         return profesional;
     }
 
-    public void setProfesional(Profesional profesional) {
+    public void setProfesional(Profesional profesional) { 
         this.profesional = profesional;
     }
 
     
     private Profesional profesional;
 
-    public Especialidad(String nombre, int nro_especialidad, Profesional profesional) {
+    public Especialidad(String nombre, int nro_especialidad, Profesional profesional) { // Constructor de la clase Especialidad
         this.nombre = nombre;
         this.nro_especialidad = nro_especialidad;
         this.profesional = profesional;
@@ -59,7 +59,7 @@ public class Especialidad {
         this.nro_especialidad = nro_especialidad;
     }
 
-    public void cargarTurnos(Turno n) {
+    public void cargarTurnos(Turno n) { // Metodo para cargar un turno
         turnos.add(n);
     }
 
