@@ -10,9 +10,9 @@ import java.util.Date;
  *
  * @author lucia
  */
-public class Turno {
+public class Turno { // Creo la clase turno
 
-    
+      // Metodos get y setters de los atributos privados
 
     public String getHora() {
         return hora;
@@ -77,7 +77,7 @@ public class Turno {
         this.nroTurno = nroTurno;
         this.secre = secre;
         this.fecha = fecha;
-    }
+    } // Constructor de la clase Turno
   
     
     
