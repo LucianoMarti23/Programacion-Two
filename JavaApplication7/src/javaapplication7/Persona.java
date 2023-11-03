@@ -8,7 +8,7 @@ package javaapplication7;
  *
  * @author lucia
  */
-public abstract class  Persona  {
+public abstract class  Persona  { // Clase Persona Abstracta del cual van a heredar a todos
 
     public Persona(String nombre, String apellido, char sexo, String fechaNacimiento, int documento) {
         this.nombre = nombre;
@@ -18,7 +18,7 @@ public abstract class  Persona  {
         this.documento = documento;
     }
 
-   
+   // Metodos getters an Setters de la clase
 
    
     public String getNombre() {
